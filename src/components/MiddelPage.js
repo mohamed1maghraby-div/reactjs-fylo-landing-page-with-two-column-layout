@@ -9,7 +9,7 @@ function MiddelPage(props){
         <div className={props.type ? 'all-files' : 'stay-productive'}>
             <div className="container">
                 <div className="row">
-                <div className="col-lg-6 col-sm-push-12">
+                <div className="col-lg-6">
                     <h2>{props.header}</h2>
                     <p>{props.fp}</p>
 
@@ -33,7 +33,7 @@ function MiddelPage(props){
                         </>
                     }
                 </div>
-                <div className="col-lg-6 col-sm-pull-12"><img className="img-responsive" src={props.img} alt="illustration"/></div>
+                <div className="col-lg-6"><img className="img-responsive" src={props.img} alt="illustration"/></div>
                 </div>
             </div>
         </div>
