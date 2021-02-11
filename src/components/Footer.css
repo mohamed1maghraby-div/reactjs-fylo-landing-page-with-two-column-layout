@@ -1,0 +1,14 @@
+footer{
+    padding: 90px;
+    background-color: hsl(243, 87%, 12%);
+}
+footer p, footer a, footer span{
+    color: #fff;
+}
+footer a:hover{
+    color: hsl(224, 93%, 58%);
+}
+footer img{
+    filter: brightness(0) invert(1);
+    margin-bottom: 20px;
+}

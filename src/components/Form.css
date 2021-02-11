@@ -1,0 +1,34 @@
+
+.all-files form {
+    margin-top: 20px;
+}
+.form-group{
+    width: 100%;
+}
+.custom-input{
+    padding: 10px 12%;
+}
+.btn-custom{
+    padding: 10px 10%;
+    margin-left: 2%;
+}
+.early-access form {
+    -webkit-transform: translateY(20%);
+    transform: translateY(20%);
+}
+.early-access input[type=text]{
+    width: 80%;
+    margin-bottom: 20px;
+}
+.early-access input[type=submit]{
+    margin: 20px 0;
+}
+input[type=submit]:hover{
+    background-color: hsl(224, 93%, 58%);
+}
+.danger-text{
+    color: red
+}
+.danger{
+    border: 1px solid red;
+}

@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Raleway';
+    src: url(https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap); 
+}
+
+@font-face {
+    font-family: 'Open Sans';
+    src: url(https://fonts.googleapis.com/css2?family=Open+Sans&display=swap); 
+}
+
+body {
+    color: #070439;
+}
+body a {
+    color: #070439; 
+}
+body h2 {
+    font-family: 'Raleway';
+    font-weight: 900;
+    font-size: 40px;
+}
+body p {
+    margin-top: 10px;
+    font-size: 17px;
+    letter-spacing: 1px;
+}
+@media (min-width: 1200px) {
+    .container {
+        width: 1280px;
+    } 
+}
